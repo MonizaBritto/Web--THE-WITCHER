@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+background-image: url(img/the\ witcher\ hell@2x.png);
+background-size: 86em;
+background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    margin-left: 7rem;
+    align-items: center;
+}
+.simbolo {
+    width: 3vw;
+    height: 10vh;
+}
+
+p {
+    margin-left: 1rem;
+    color: white;
+}
+
+ul {
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+    padding: 2rem;
+    color: white;
+  }
+
+.universo{
+    font-weight: bold;
+}
+
+.Kavil {
+    position: relative;
+    left: 29rem;
+    width: 31rem;
+    height: 43rem;
+}
+
+.the {
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    top: 23rem;
+    left: 34rem;
+
+}
+
+button {
+    position: absolute;
+    background-image: linear-gradient(rgb(203, 35, 35), rgb(120, 0, 0));
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    top: 34rem;
+    left: 36.5rem;
+}
